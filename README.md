@@ -290,10 +290,4 @@ const vectorStore = new PineconeStore(voyageEmbeddings, {
 
 const retrieved = await vectorStore.maxMarginalRelevanceSearch(query, { k: 20 });
 ```
----
-
-## Troubleshooting
-
-Experiencing any issues with the sample app?
-[Submit an issue, create a PR](https://github.com/pinecone-io/sample-apps/), or post in our [community forum](https://community.pinecone.io)!
 
